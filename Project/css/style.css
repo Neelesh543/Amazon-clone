@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 45px;
+    background-color: darkmagenta;
+    color: white;
+    border: black solid;
+     font-family: 'Asap Condensed', sans-serif;
+}
+nav ul{
+    height: 45px;
+    display: flex ;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+nav ul li{
+    list-style: none; 
+    padding: 0 25px;
+   
+}
+nav ul li a{
+    color:white;
+    text-decoration: none; 
+     padding: 0,45px;
+}
+nav ul li a:hover {
+    color:rgb(87, 112, 238);
+    font-weight: bold;
+    
+   
+     
+}
+ nav{
+    display: flex;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ .logo img{
+    
+    width:104px;
+    padding: 0 13px;
+ }
+ .search{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.search input{
+    height: 25px;
+    width: 400px;
+    border-radius: 4px;
+    margin: 0 50px;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+ }
+ .logo2 img{
+    
+    width: 29px;
+    margin: 0px -63px;
+    height: 26px;
+ }
+
+.container{
+    min-height: calc(100vh - 45px - 50px);
+    background-color:darkorange;
+}
+.slider img{
+    height: 241px;
+    
+}
+.cart{
+    max: width 91vw;
+    margin: auto;
+    font-family: 'Asap Condensed', sans-serif;
+}
+.cart h2{
+    font-family: 'Asap Condensed', sans-serif;
+    margin-left: 34px
+}
+.cart-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+     margin-left: 34px
+}
+.cart-item img{
+    width: 159px;
+    height:200px
+}
+.cart-item p{
+    font-size:13px;
+    text-align: center;
+    width: 12vw;
+}
+
+footer{
+   
+    height: 50px;
+    background-color: navy;
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+}
+ .foot{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
